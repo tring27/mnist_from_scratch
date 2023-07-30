@@ -1,7 +1,7 @@
 # MNIST digit recognizer built from scratch
 Here I tried to build MNIST digit recognizer with a simple 2-layer neural network written completely using Numpy and Pandas without any Pytorch or Tensorflow libraries.
 
-![Neural Network Image](img/mnist_from_scratch.jpg)
+![Neural Network Image](img/mnist_from_scratch.png)
 
 The Input layer of the Neural network took a 28x28 (784) pixel image. In the first hidden layer, we have 10 neurons, the output of which gets clipped using ReLU (Rectified Linear Unit), the output of first hidden layer goes to the output layer, which has also got 10 neurons for 10 classes to be classfied, and a Softmax operation to generate the probabilities of the classified class.
 
