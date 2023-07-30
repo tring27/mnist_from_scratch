@@ -12,9 +12,14 @@ Used from Kaggle
 
 # Experiments
 1. Tried the normal gradient descent over the complete training data set, for 8 epochs
-![NGD](img/ngd.jpg)
+![NGD](img/ngd.JPG)
+
+
 This design comes as only 11% accurate after running 8 Epochs.
 
-2.  Tried the same example with Stochastic gradient descent, which is to divide the training data set over 60 batches and then run 8 epochs to train the network.
-![SGD](img/mnist_from_scratch.jpg)
+2. Tried the same example with Stochastic gradient descent, which is to divide the training data set over 60 batches and then run 8 epochs to train the network.
+
+![SGD](img/sgd.JPG)
+
+
 The result is much better, in almost identical time, the design gets 84% accuracy.
